@@ -11,6 +11,7 @@ library("SomaticSignatures")
 library(ggplot2)
 load(file = "mutationTypes.rda") #variabe mutationTypes
 load(file = "dataMmRownamesRightOrder.rda")
+source("plot_functions.R")
 
 rawData = readMat("LDA/data/21_genomes_96_subs_data.mat")
 rawData = readMat("LDA/data/119_genomes_96_subs_data.mat")

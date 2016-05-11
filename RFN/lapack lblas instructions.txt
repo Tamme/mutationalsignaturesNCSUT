@@ -1,0 +1,4 @@
+http://askubuntu.com/questions/623578/installing-blas-package
+
+http://stackoverflow.com/questions/27033243/usr-bin-ld-cannot-find-llapack
+

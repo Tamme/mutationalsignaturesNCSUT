@@ -1,0 +1,4 @@
+rfn_retrain - our main code that uses the rfn method and iterates it over several resampled data sets to produce non overfitting and close to global minima result
+rfn_retrain_findsignatures - iterates rfn_retrain over all the possible number of signatures
+
+rfn_transpiose_many_iterations and rfn_identify_nr and similarity are implementations that should mimic the way NMF works and constructs averages of several iterations, but didn't produce good enough results.
