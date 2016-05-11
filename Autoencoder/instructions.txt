@@ -1,0 +1,7 @@
+findNumberOfSignatures is the main file for training a neural network for all differnet signatures numbers
+findNumberOfSignaturesSyntheticNN is the saim for synthetic data sets
+findNumberOfSignaturesWall is an attempt on NMF like implementation but doesnt give the desired results
+makeLargeData is used for making 506 sample data set
+bayesopt, defaultopt, nn_bo and saewrapper are used for bayersian  optimization
+
+many of the rest are slight modifications of the validation code by Alexandrov et al.
