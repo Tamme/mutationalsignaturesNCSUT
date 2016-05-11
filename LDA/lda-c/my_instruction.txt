@@ -1,0 +1,13 @@
+Compile using make
+Then command for running is:
+./lda est alpha k settings.txt ../data/lda_original.txt  random 20160127
+made scripts for running  several
+where good alpha is 0.5 and k is nr of topics and last parameter is folder
+for converting probabilities to W:
+python topics.py 20160127/final.beta ../data/gen_vocab.txt 96
+final.beta.probs.txt contains the new W
+H comes from final.gamma
+
+
+
+

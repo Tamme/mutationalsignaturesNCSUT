@@ -1,0 +1,6 @@
+./lda est 0.3 8 settings.txt ../data/lda_original.txt  random 20160127
+python topics.py 20160127/final.beta data/gen_vocab.txt 96
+final.beta.probs.txt to R matlab.R
+
+
+
